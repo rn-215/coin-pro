@@ -5,18 +5,19 @@ const styles = StyleSheet.create({
         padding: 20,
         alignItems:"center",
         flex: 1,
-        backgroundColor:"white"
+        backgroundColor:"black"
     },
     image: {
         height: "40%",
         aspectRatio: 1,
-
+        marginTop: 10
     },
     header: {
         fontSize: 27,
         fontWeight: "600",
         marginVertical:10,
-        marginTop: 40
+        marginTop: 40,
+        color: "white"
     },
     header2:{
         fontSize: 20,
