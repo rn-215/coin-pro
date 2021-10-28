@@ -1,10 +1,16 @@
 import React from 'react'
-import { View, Text } from 'react-native'
+import { View, Text, Image } from 'react-native'
+import styles from './styles'
+
+
+const image = require('../../../assets/images/Saly-1.png')
 
 const HomeScreen = () => {
     return (
-        <View style={{flex: 1, justifyContent:"center", alignItems:"center"}}>
-            <Text>Homescreen component</Text>
+        <View style={styles.root}>
+            <Image source={image} style={styles.image}   />
+            <Text style={styles.header}>Welcome to Coin-Pro</Text>
+            <Text style={styles.header2}>You have $100.000 preloaded in your account to kickstart your investing journey!</Text>
         </View>
     )
 }
