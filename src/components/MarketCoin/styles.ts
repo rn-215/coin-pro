@@ -30,8 +30,8 @@ const styles = StyleSheet.create({
         color: "grey",
         fontWeight:"500"
     },
-    amount:{
-        color: "green",
+    valueChange24H:{
+        color: "white",
         fontSize: 18,
         fontWeight:"500",
         

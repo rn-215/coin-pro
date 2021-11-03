@@ -27,10 +27,115 @@ const portfolioCoins = [{
     symbol:"BNB",
     amount: 7.64,
     valueUSD: '$69.420',
-}
+},
+
+{
+    id: 4,
+    name: 'Binance',
+    image: 'https://s2.coinmarketcap.com/static/img/coins/200x200/1839.png',
+    symbol:"BNB",
+    amount: 7.64,
+    valueUSD: '$69.420',
+},
+{
+    id: 5,
+    name: 'Binance',
+    image: 'https://s2.coinmarketcap.com/static/img/coins/200x200/1839.png',
+    symbol:"BNB",
+    amount: 7.64,
+    valueUSD: '$69.420',
+},
+{
+    id: 6,
+    name: 'Binance',
+    image: 'https://s2.coinmarketcap.com/static/img/coins/200x200/1839.png',
+    symbol:"BNB",
+    amount: 7.64,
+    valueUSD: '$69.420',
+},
+{
+    id: 7,
+    name: 'Binance',
+    image: 'https://s2.coinmarketcap.com/static/img/coins/200x200/1839.png',
+    symbol:"BNB",
+    amount: 7.64,
+    valueUSD: '$69.420',
+},
+{
+    id: 8,
+    name: 'Binance',
+    image: 'https://s2.coinmarketcap.com/static/img/coins/200x200/1839.png',
+    symbol:"BNB",
+    amount: 7.64,
+    valueUSD: '$69.420',
+},
+{
+    id: 9,
+    name: 'Binance',
+    image: 'https://s2.coinmarketcap.com/static/img/coins/200x200/1839.png',
+    symbol:"BNB",
+    amount: 7.64,
+    valueUSD: '$69.420',
+},
+{
+    id: 10,
+    name: 'Binance',
+    image: 'https://s2.coinmarketcap.com/static/img/coins/200x200/1839.png',
+    symbol:"BNB",
+    amount: 7.64,
+    valueUSD: '$69.420',
+},
+{
+    id: 12,
+    name: 'Binance',
+    image: 'https://s2.coinmarketcap.com/static/img/coins/200x200/1839.png',
+    symbol:"BNB",
+    amount: 7.64,
+    valueUSD: '$69.420',
+},
+{
+    id: 13,
+    name: 'Binance',
+    image: 'https://s2.coinmarketcap.com/static/img/coins/200x200/1839.png',
+    symbol:"BNB",
+    amount: 7.64,
+    valueUSD: '$69.420',
+},
+{
+    id: 14,
+    name: 'Binance',
+    image: 'https://s2.coinmarketcap.com/static/img/coins/200x200/1839.png',
+    symbol:"BNB",
+    amount: 7.64,
+    valueUSD: '$69.420',
+},
+{
+    id: 15,
+    name: 'Binance',
+    image: 'https://s2.coinmarketcap.com/static/img/coins/200x200/1839.png',
+    symbol:"BNB",
+    amount: 7.64,
+    valueUSD: '$69.420',
+},
+{
+    id: 16,
+    name: 'Binance',
+    image: 'https://s2.coinmarketcap.com/static/img/coins/200x200/1839.png',
+    symbol:"BNB",
+    amount: 7.64,
+    valueUSD: '$69.420',
+},
+{
+    id: 27,
+    name: 'Binance',
+    image: 'https://s2.coinmarketcap.com/static/img/coins/200x200/1839.png',
+    symbol:"BNB",
+    amount: 7.64,
+    valueUSD: '$69.420',
+},
 
 ]
-const MarketScreen = () => {
+const PortfolioScreen = () => {
     return (
         <View style={styles.root}>
             <Image source={image} style={styles.image}  />
@@ -47,4 +152,4 @@ const MarketScreen = () => {
     )
 }
 
-export default MarketScreen
+export default PortfolioScreen
