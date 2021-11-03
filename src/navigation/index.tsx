@@ -47,7 +47,7 @@ function BottomTabNavigator() {
       screenOptions={{
         tabBarActiveTintColor: "red",
         tabBarStyle:{
-          backgroundColor:"black",
+          
           
         },
       
@@ -58,7 +58,7 @@ function BottomTabNavigator() {
         component={HomeScreen}
         options={({ navigation }: RootTabScreenProps<'Home'>) => ({
           title: 'Home',
-          tabBarIcon: () => <Entypo style={{ marginBottom: -3 }} name="home" color="#FF6C44" size={30} />,
+          tabBarIcon: () => <Entypo style={{ marginBottom: -3 }} name="home" color="green" size={30} />,
           headerShown: false,
           
         })}
@@ -68,7 +68,7 @@ function BottomTabNavigator() {
         component={PortfolioScreen}
         options={{
           title: 'Portfolio',
-          tabBarIcon: () => <AntDesign style={{ marginBottom: -3 }} name="piechart" size={30}  color="#FF6C44" />,
+          tabBarIcon: () => <AntDesign style={{ marginBottom: -3 }} name="piechart" size={30}  color="gray" />,
           headerShown: false,
         }}
       />
@@ -78,7 +78,7 @@ function BottomTabNavigator() {
         component={MarketScreen}
         options={{
           title: 'Market',
-          tabBarIcon: () => <TabBarIcon name="line-chart" color="#FF6C44" />,
+          tabBarIcon: () => <TabBarIcon name="line-chart" color="gray" />,
           headerShown: false,
         }}
       />
@@ -88,7 +88,7 @@ function BottomTabNavigator() {
         component={RankingsScreen}
         options={{
           title: 'Rankings',
-          tabBarIcon: () => <MaterialIcons style={{ marginBottom: -3 }} name="leaderboard" size={30} color="#FF6C44" />,
+          tabBarIcon: () => <MaterialIcons style={{ marginBottom: -3 }} name="leaderboard" size={30} color="gray" />,
           headerShown: false,
         }}
       />
@@ -98,7 +98,7 @@ function BottomTabNavigator() {
         component={ProfileScreen}
         options={{
           title: 'Profile',
-          tabBarIcon: () => <TabBarIcon name="user" color='#FF6C44' />,
+          tabBarIcon: () => <TabBarIcon name="user" color='gray' />,
           headerShown: false,
         }}
       />
